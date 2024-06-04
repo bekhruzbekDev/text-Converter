@@ -146,8 +146,8 @@ let arr = [
 function textReplace(text) {
   let result = "";
   for (i = 0; i < text.length; i++) {
-    var char = text[i];
-    var nextChar = text[i + 1];
+    let char = text[i];
+    let nextChar = text[i + 1];
 
     if (char === "s" && nextChar === "h") {
       result += arr[0]["sh"];
